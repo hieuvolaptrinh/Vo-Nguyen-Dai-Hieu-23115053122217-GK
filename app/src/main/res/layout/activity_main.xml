@@ -13,13 +13,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
-        android:text="Phần Mềm\n Lênh Lịch Hằng Tuần"
+        android:text="Phần Mềm\nLưu Thông Tin Sinh Viên"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.451"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,27 +38,27 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/name_2217"
         android:layout_width="263dp"
         android:layout_height="43dp"
         android:layout_marginTop="352dp"
         android:ems="10"
+        android:hint="Nhập Tên Sinh Viên"
         android:inputType="text"
-        android:text="Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/msv_2217"
         android:layout_width="261dp"
         android:layout_height="48dp"
-        android:layout_marginTop="412dp"
+        android:layout_marginTop="456dp"
         android:ems="10"
+        android:hint="Nhập Mã Sinh Viên"
         android:inputType="text"
-        android:text="Name"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintHorizontal_bias="0.546"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -74,26 +73,17 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/logotruong" />
 
-    <CalendarView
-        android:id="@+id/calendarView"
-        android:layout_width="307dp"
-        android:layout_height="283dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
-
     <Button
         android:id="@+id/btnAdd_2217"
         android:layout_width="170dp"
         android:layout_height="61dp"
-        android:layout_marginTop="28dp"
-        android:text="Thêm Lích"
+        android:layout_marginTop="44dp"
+        android:background="@color/white"
+        android:text="Thêm Thông Tin    "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="@color/white"
-        app:layout_constraintTop_toBottomOf="@+id/calendarView" />
+        app:layout_constraintTop_toBottomOf="@+id/msv_2217" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
