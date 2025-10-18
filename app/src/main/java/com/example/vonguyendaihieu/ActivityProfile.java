@@ -25,19 +25,15 @@ public class ActivityProfile extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
         back_2217 = findViewById(R.id.back_2217);
         name_2217 = findViewById(R.id.editName_2217);
         msv_2217 = findViewById(R.id.editMsv_2217);
         btnEdit_2217 = findViewById(R.id.btnEdit_2217);
-
         name_2217.setText(getIntent().getStringExtra("name_2217"));
         msv_2217.setText(getIntent().getStringExtra("msv_2217"));
-
         btnEdit_2217.setOnClickListener(v -> {
             sendDataBackToMain();
         });
-
         back_2217.setOnClickListener(v -> {
             sendDataBackToMain();
         });
@@ -51,4 +47,3 @@ public class ActivityProfile extends AppCompatActivity {
         finish();
     }
 }
-
